@@ -1,4 +1,5 @@
 import { Component, EventEmitter, Output } from '@angular/core';
+import { DropdownDirective } from '../shared/dropdown.directive';
 
 @Component({
   selector: 'app-header',
@@ -7,6 +8,8 @@ import { Component, EventEmitter, Output } from '@angular/core';
 })
 export class HeaderComponent {
 @Output() featureSelected = new EventEmitter<string>();
+
+  value:boolean = true;
 
   onSelect(feature: string){
     this.featureSelected.emit(feature);
