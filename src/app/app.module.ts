@@ -12,6 +12,7 @@ import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-it
 import { RecipeListComponent } from './recipes/recipe-list/recipe-list.component';
 import { DropdownDirective } from './shared/dropdown.directive';
 import { AppRoutingModule } from './app-routing.module';
+import { DumbComponent1Component } from './recipes/stupid-components/dumb-component-1/dumb-component-1.component';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { AppRoutingModule } from './app-routing.module';
     RecipeItemComponent,
     RecipeListComponent,
     DropdownDirective,
+    DumbComponent1Component,
   ],
   imports: [
     BrowserModule, FormsModule, AppRoutingModule
