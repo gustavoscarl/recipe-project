@@ -24,7 +24,7 @@ import { AppRoutingModule } from './app-routing.module';
     RecipeDetailComponent,
     RecipeItemComponent,
     RecipeListComponent,
-    DropdownDirective
+    DropdownDirective,
   ],
   imports: [
     BrowserModule, FormsModule, AppRoutingModule
